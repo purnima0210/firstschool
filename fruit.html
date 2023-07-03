@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style type="text/css">
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+border-radius: 30px;
+border:10px double #000000
+}
+body {
+	margin-top: 20px;
+	background-color: #000000;
+	margin-left: 80px;
+	background-image: url(bg.jpg);
+}
+.stylea {color: #FFFFFF}
+.ab{ opacity:0.9;}
+.style2 {font-size: 50px}
+</style>
+</head>
+
+<body>
+<div style="position:absolute; left: 78px; top: 135px;"><a href="fruits/apple.jpg" target="aa" >
+<button class="button" onClick="playAudioa()">APPLE</button>
+</a></div>
+<div style="position:absolute; left: 971px; top: 19px;"><a href="fruits/grapes.jpg" target="aa" >
+<button class="button" onClick="playAudiob()">GRAPES</button>
+</a></div>
+<div style="position:absolute; left: 403px; top: 514px;"><a href="fruits/pineapple.jpg" target="aa" >
+<button class="button" onClick="playAudioc()">PINEAPPLE</button>
+</a></div>
+<div style="position:absolute; left: 1119px; top: 270px;"><a href="fruits/orange.png" target="aa" >
+<button class="button" onClick="playAudiod()">ORANGE</button>
+</a></div>
+<div style="position:absolute; left: 195px; top: 23px;"><a href="fruits/papaya.jpg" target="aa" >
+<button class="button" onClick="playAudioe()">PAPAYA</button>
+</a></div>
+<div style="position:absolute; left: 582px; top: 515px;"><a href="fruits/kiwi.jpg" target="aa" >
+<button class="button" onClick="playAudiof()">KIWI...</button>
+</a></div>
+<div style="position:absolute; left: 70px; top: 381px;"><a href="fruits/strawberry.jpg" target="aa" >
+<button class="button" onClick="playAudiog()">STRAWBERRY</button>
+</a></div>
+<div style="position:absolute; left: 169px; top: 491px;"><a href="fruits/pomegranate.jpg" target="aa" >
+<button class="button" onClick="playAudioh()">POMEGRANATE</button>
+</a></div>
+<div style="position:absolute; top: 516px; left: 748px;"><a href="fruits/watermelon.jpg" target="aa" >
+<button class="button" onClick="playAudioi()">WATERMELON</button>
+</a></div>
+<div style="position:absolute; left: 1054px; top: 387px;"><a href="fruits/mango.jpg" target="aa" >
+<button class="button" onClick="playAudioj()">MANGO</button>
+</a></div>
+<div style="position:absolute; left: 1036px; top: 145px;"><a href="fruits/dragonfruit.jpg" target="aa" >
+<button class="button" onClick="playAudiok()">DRAGONFRUITS</button>
+</a></div>
+<div style="position:absolute; left: 980px; top: 514px;"><a href="fruits/cherry.jpg" target="aa" >
+<button class="button" onClick="playAudiol()">CHERRY</button>
+</a></div>
+<div style="position:absolute; left: 73px; top: 262px;"><a href="fruits/banana.jpg" target="aa" >
+<button class="button" onClick="playAudiom()">BANANA</button>
+</a></div>
+
+<div style="position:absolute"><iframe  src="fruits/apple.jpg"  name="aa" id="aa" style="border:none; position:absolute; width: 514px; height: 296px; left: 357px; top: 161px; background-color:#000000" scrolling="no" ></iframe>
+</div>
+
+<a href="index.html"><div class="stylea" style="position:absolute; left: -5px; top: 596px; background-color:#4CAF50; border-radius:25px; width: 75px; height: 26px;" > 
+  <center>
+    <i>Home</i>
+  </center>
+
+</div></a>
+
+<div class="stylea ab  style2" style="position:absolute; left: 460px; top: 19px;"><b>FRUITS TEACHER</b></div>
+
+<audio id="myAudioa">
+  <source src="fruits/apple.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="myAudiob">
+  <source src="fruits/grapes.mp3" type="audio/mpeg">
+</audio>
+<audio id="myAudioc">
+  <source src="fruits/pineapple.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="myAudiod">
+  <source src="fruits/orange.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="myAudioe">
+  <source src="fruits/papaya.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="myAudiof">
+  <source src="fruits/kiwi.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="myAudiog">
+  <source src="fruits/strawberry.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="myAudioh">
+  <source src="fruits/pomegranate.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="myAudioi">
+  <source src="fruits/watermelon.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="myAudioj">
+  <source src="fruits/mango.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="myAudiok">
+  <source src="fruits/dragonfruit.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="myAudiol">
+  <source src="fruits/cherry.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="myAudiom">
+  <source src="fruits/banana.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+var a = document.getElementById("myAudioa"); 
+var b = document.getElementById("myAudiob");
+var c = document.getElementById("myAudioc");
+var d = document.getElementById("myAudiod");
+var e = document.getElementById("myAudioe");
+var f = document.getElementById("myAudiof");
+var g = document.getElementById("myAudiog");
+var h = document.getElementById("myAudioh");
+var i = document.getElementById("myAudioi");
+var j = document.getElementById("myAudioj");
+var k = document.getElementById("myAudiok");
+var l = document.getElementById("myAudiol");
+var m = document.getElementById("myAudiom");
+function playAudioa() { 
+  a.play(); 
+} 
+
+function playAudiob() { 
+  b.play(); 
+} 
+
+function playAudioc() { 
+  c.play(); 
+} 
+
+function playAudiod() { 
+  d.play(); 
+} 
+
+function playAudioe() { 
+  e.play(); 
+} 
+
+function playAudiof() { 
+  f.play(); 
+} 
+
+function playAudiog() { 
+  g.play(); 
+} 
+
+function playAudioh() { 
+  h.play(); 
+} 
+
+function playAudioi() { 
+  i.play(); 
+} 
+
+function playAudioj() { 
+  j.play(); 
+} 
+
+function playAudiok() { 
+  k.play(); 
+} 
+
+function playAudiol() { 
+  l.play(); 
+} 
+
+function playAudiom() { 
+  m.play(); 
+} 
+</script>
+</body>
+</html>
